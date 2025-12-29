@@ -3,11 +3,6 @@
 # PURPOSE: Build Docker images and push to DigitalOcean Container Registry
 # NO AUTOMATIC DEPLOYMENT - Manual helm upgrade required to deploy
 #
-# MIGRATION FROM OLD WORKFLOW:
-# This replaces the automatic deployment steps with build-only approach.
-# Removed: sed updates, kubectl create/apply, rollout verification, kubeconfig save
-# Added: Deployment instructions output
-#
 # SETUP INSTRUCTIONS:
 # 1. Backup current workflow:
 #    mv .github/workflows/main.yaml .github/workflows/main.yaml.backup
