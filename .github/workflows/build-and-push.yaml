@@ -114,7 +114,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "📦 *Image Pushed to Registry* - natherin-frontend-web\n*Branch:* `${{ github.ref_name }}`\n*Image Tag:* `${{ steps.vars.outputs.short_sha }}`\n*Registry:* `registry.digitalocean.com/zincan/natherin-frontend-web`\n*Author:* ${{ github.actor }}"
+                    "text": "📦 *Image Pushed to Registry* - natherin-frontend-web\n*Branch:* `${{ github.ref_name }}`\n*Image Tag:* `${{ steps.vars.outputs.short_sha }}`\n*Full Image:* `registry.digitalocean.com/zincan/natherin-frontend-web:${{ steps.vars.outputs.short_sha }}`\n*Author:* ${{ github.actor }}"
                   }
                 }
               ]
